@@ -1,17 +1,19 @@
-# LoanTap-ML-Logistic-Regression
-LoanTap is an online platform committed to delivering customised loan products to millennials. They innovate in an otherwise dull loan segment to deliver instant, flexible loans on consumer-friendly terms to salaried professionals and businessmen.
+# 💳 LoanTap Credit Underwriting Dashboard
 
-The data science team at LoanTap is building an underwriting layer to determine the creditworthiness of MSMEs as well as individuals.
+An end-to-end interactive machine learning dashboard built to evaluate personal loan creditworthiness, identify default probability, and optimize the Precision-Recall tradeoff between Non-Performing Assets (NPAs) and interest revenue.
 
-LoanTap deploys formal credit to salaried individuals and businesses through 4 main financial instruments:
+## Live Demo
+🔗 **Live App Link:** [Replace with your deployed Streamlit URL]
 
-1. Personal Loan
-2. EMI Free Loan
-3. Personal Overdraft
-4. Advance Salary Loan
+## Key Features
+- **Executive Portfolio View:** Interactive segmentation across credit grades, terms, and housing statuses.
+- **Credit Risk Drivers:** Visual analysis of DTI ratios, interest rates, and loan durations against default outcomes.
+- **Inference Engine:** Real-time risk probability calculation for prospective loan applicants.
+- **Threshold Simulator:** Commercial economic tradeoff modeling (losses avoided vs. interest income foregone).
 
-This case study will focus on the underwriting process behind the Personal Loan only
-
-Problem Statement:
-
-Given a set of attributes for an Individual, determine if a credit line should be extended to them. If so, what should the repayment terms be in business recommendations?
+## Local Installation
+```bash
+git clone [https://github.com/](https://github.com/)<your-username>/loantap-underwriting-dashboard.git
+cd loantap-underwriting-dashboard
+pip install -r requirements.txt
+streamlit run app.py
