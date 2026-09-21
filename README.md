@@ -3,7 +3,7 @@
 An end-to-end interactive machine learning dashboard built to evaluate personal loan creditworthiness, identify default probability, and optimize the Precision-Recall tradeoff between Non-Performing Assets (NPAs) and interest revenue.
 
 ## Live Demo
-🔗 **Live App Link:** [Replace with your deployed Streamlit URL]
+🔗 **Live App Link:** https://7g6jgjpgr7mcr7dhkieaa4.streamlit.app/
 
 ## Key Features
 - **Executive Portfolio View:** Interactive segmentation across credit grades, terms, and housing statuses.
